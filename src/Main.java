@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Disciplina disciplina1 = new Disciplina("854796", "Matematica", "1° Semestre");
-        Disciplina disciplina2 = new Disciplina("841598", "Quimica", "3° Semestre");
-        Disciplina disciplina3 = new Disciplina("215789", "Fisica", "5° Semestre");
+        Disciplina disciplina1 = new Disciplina("854796", "Matemática", "1° Semestre");
+        Disciplina disciplina2 = new Disciplina("841598", "Química", "3° Semestre");
+        Disciplina disciplina3 = new Disciplina("215789", "Física", "5° Semestre");
 
         Aluno aluno1 = new Regular("021.965.789-15", "Samuel Vasconcelos", 22, "2548796/6");
         Aluno aluno2 = new Regular("281.475.125-85", "Marcelo Cosme", 21, "4785685/9");
