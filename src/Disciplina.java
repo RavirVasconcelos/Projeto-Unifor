@@ -33,4 +33,11 @@ public class Disciplina {
     public void setSemestre(String semestre) {
         this.semestre = semestre;
     }
+
+    @Override
+    public String toString() {
+        return  nome +
+                ", Codigo: " + codigo +
+                ", Semestre: " + semestre;
+    }
 }

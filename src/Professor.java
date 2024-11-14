@@ -18,4 +18,12 @@ public class Professor extends Pessoa {
     public String darAula() {
         return "Professor dar a aula";
     }
+
+    @Override
+    public String toString() {
+        return  "Nome: " + getNome() +
+                ", CPF: " + getCpf() +
+                ", Idade: " + getIdade() +
+                ", Centro: " + centro;
+    }
 }

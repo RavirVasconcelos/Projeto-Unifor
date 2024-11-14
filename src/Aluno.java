@@ -1,21 +1,22 @@
 public class Aluno extends Pessoa {
 
-    private int matricula;
+    private String matricula;
 
-    public Aluno(String cpf, String nome, int idade, int matricula) {
+    public Aluno(String cpf, String nome, int idade, String matricula) {
         super(cpf, nome, idade);
         this.matricula = matricula;
     }
 
-    public int getMatricula() {
+    public String getMatricula() {
         return matricula;
     }
 
-    public void setMatricula(int matricula) {
+    public void setMatricula(String matricula) {
         this.matricula = matricula;
     }
 
     public String pagarMensalidade() {
         return null;
     }
+
 }
