@@ -11,8 +11,7 @@ public class Regular extends Aluno {
     @Override
     public String toString() {
         return  '\n' +
-                "Aluno Regular: " +
-                "Nome : " + getNome() +
+                "Aluno Regular: " + getNome() +
                 ", CPF: " + getCpf() +
                 ", Idade: " +getIdade() +
                 ", Matricula: " + getMatricula();

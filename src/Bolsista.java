@@ -11,8 +11,7 @@ public class Bolsista extends Aluno {
     @Override
     public String toString() {
         return  '\n' +
-                "Aluno Bolsista: " +
-                "Nome : " + getNome() +
+                "Aluno Bolsista: " + getNome() +
                 ", CPF: " + getCpf() +
                 ", Idade: " +getIdade() +
                 ", Matricula: " + getMatricula();
