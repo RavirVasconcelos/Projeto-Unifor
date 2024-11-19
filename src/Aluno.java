@@ -18,5 +18,4 @@ public class Aluno extends Pessoa {
     public String pagarMensalidade() {
         return null;
     }
-
 }

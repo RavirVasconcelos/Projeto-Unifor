@@ -26,13 +26,13 @@ public class Main {
         Turma turma2 = new Turma("12548796", disciplina2, professor, alunos);
         Turma turma3 = new Turma("25419687", disciplina3, professor, alunos);
 
-
+        System.out.println("Turma 1");
         turma1.listarTurma();
 
-        System.out.println();
+        System.out.println("\n" + "Turma 2");
         turma2.listarTurma();
 
-        System.out.println();
+        System.out.println("\n" + "Turma 3");
         turma3.listarTurma();
     }
 }

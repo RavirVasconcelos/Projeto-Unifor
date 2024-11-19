@@ -8,12 +8,13 @@ public class Regular extends Aluno {
     public String pagarMensalidade() {
         return "Aluno regular paga o valor integral";
     }
+
     @Override
     public String toString() {
         return  '\n' +
                 "Aluno Regular: " + getNome() +
                 ", CPF: " + getCpf() +
-                ", Idade: " +getIdade() +
+                ", Idade: " + getIdade() +
                 ", Matricula: " + getMatricula();
     }
 }

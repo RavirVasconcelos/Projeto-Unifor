@@ -8,12 +8,13 @@ public class Bolsista extends Aluno {
     public String pagarMensalidade() {
         return "Aluno bolsista paga com desconto";
     }
+
     @Override
     public String toString() {
         return  '\n' +
                 "Aluno Bolsista: " + getNome() +
                 ", CPF: " + getCpf() +
-                ", Idade: " +getIdade() +
+                ", Idade: " + getIdade() +
                 ", Matricula: " + getMatricula();
     }
 }

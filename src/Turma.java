@@ -7,19 +7,21 @@ public class Turma {
     private Professor professor;
     private ArrayList<Aluno> alunos;
 
-    public Turma(String codigo, Disciplina disciplina, Professor professor, ArrayList<Aluno> alunos) {
+    public Turma(String codigo, Disciplina disciplina, Professor professor, ArrayList<Aluno> aluno) {
         this.codigo = codigo;
         this.disciplina = disciplina;
         this.professor = professor;
-        this.alunos = alunos;
+        this.alunos = new ArrayList<Aluno>(aluno);
     }
 
     public void adicionarAluno(Aluno aluno) {
         alunos.add(aluno);
     }
+
     public void removerAluno(Aluno aluno) {
         alunos.remove(aluno);
     }
+
     public void listarAlunos() {
         alunos.forEach((aluno) -> System.out.println(aluno));
     }
@@ -29,6 +31,5 @@ public class Turma {
                 "Disciplina: " + disciplina + '\n' +
                 "Professor da turma: " + professor + '\n' +
                 "Lista dos alunos: " + alunos);
-
     }
 }
