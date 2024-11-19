@@ -12,7 +12,7 @@ public class Main {
         Aluno aluno2 = new Regular("281.475.125-85", "Marcelo Cosme", 21, "4785685/9");
         Aluno aluno3 = new Bolsista("859.968.478-35", "Anderson Santana", 25, "2958785/4");
 
-        Professor professor = new Professor("265.857.963-88", "Andre Wescley", 35, "Natureza");
+        Professor professor = new Professor("265.857.963-88", "Carlos Anderson", 35, "Natureza");
 
         Visitante visitante1 = new Visitante("587.142.968-55", "Rebeca Lelis", 23);
         Visitante visitante2 = new Visitante("869.329.258-45", "Vitor Lucas", 20);
